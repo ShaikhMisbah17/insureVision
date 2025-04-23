@@ -1,0 +1,16 @@
+.extract-btn {
+  width: 100%;
+  padding: 12px 0;
+  font-size: 16px;
+  background-color: transparent;
+  border: 2px solid rgb(18, 17, 17);
+  color: rgb(21, 20, 20);
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.extract-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: scale(1.05);
+  border-color: #fff;
+}
