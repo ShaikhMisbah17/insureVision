@@ -20,8 +20,10 @@ const Layout = () => {
 
   return (
     <React.Fragment classname="layout-color">
+      <div className='background-img'>
     <Header scrollToSection={scrollToSection}/>
     <Section1/>
+    </div>
     <Section2/>
     <Section3/>
     <Section4/>

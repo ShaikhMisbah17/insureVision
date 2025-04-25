@@ -7,7 +7,7 @@ const index = () => {
             <p>INTRODUCING</p>
             <h3>ENVIROMATICS</h3>
             <h4>TELEMATICS 2.0</h4>
-            <p>Technology built based on real world scenarios</p>
+            <p className='text-pink'>Technology built based on real world scenarios</p>
             <div className='row mx-0 mt-3'>
                 <div className='col-11'>
                     <div className='row mx-0'>

@@ -14,3 +14,19 @@
   transform: scale(1.05);
   border-color: #fff;
 }
+
+.extract-btn{
+  border: 1px solid var(--unnamed-color-b94c99);
+  border: 1px solid #B94C99;
+  border-radius: 42px;
+  opacity: 1;
+  color: #fff;
+}
+
+.container{
+  color: #ffff;
+}
+
+.text-pink{
+  color:#B94C99
+}

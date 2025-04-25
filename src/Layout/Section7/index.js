@@ -16,7 +16,7 @@ const index = ({sectionRef}) => {
             <div className='row'>
                 <div className='col-3 d-flex align-items-center'>WHO ARE YOU ?</div>
                     <div class="col-8">
-                        <select class="p-3 w-100" >
+                        <select class="p-3 w-100 dropdown" >
                             <option value="">AN INSURANCE COMPANY</option>
                         </select>
                     </div>
@@ -75,6 +75,10 @@ const index = ({sectionRef}) => {
               ></textarea>
             </div>
 
+            <div className="mb-3">
+              {/* new button for contact */}
+              <button className='w-100 p-2 rounded-5 btn- btn-success text-white submit-btn'>Submit</button> 
+            </div>
         </div>
       </div>
     </div>

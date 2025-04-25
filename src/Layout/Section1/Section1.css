@@ -10,10 +10,13 @@
     width: 100%;
     padding: 10px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    font-family: Figtree;
+    font-weight: bold;
+    font-size: 90;
   }
   
   .top-text {
-    top: 0%;
+    top: 8%;
   }
   
   .bottom-text {
@@ -22,4 +25,29 @@
 
   p{
     margin-bottom: 0;
+  }
+
+  .text-msg{
+    color: #b94c99;
+    
+  }
+
+  .btn-outline-primary{
+    background: var(--unnamed-color-0e000b) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-b94c99);
+    background: #0E000B 0% 0% no-repeat padding-box;
+    border: 1px solid #B94C99;
+    border-radius: 20px;
+    opacity: 1;
+    color: aliceblue;
+  }
+
+  .btn-outline-secondary{
+    background: var(--unnamed-color-0e000b) 0% 0% no-repeat padding-box;
+border: 1px solid var(--unnamed-color-b94c99);
+background: #0E000B 0% 0% no-repeat padding-box;
+border: 1px solid #B94C99;
+border-radius: 20px;
+opacity: 1;
+color: aliceblue;
   }

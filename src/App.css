@@ -1,1 +1,7 @@
 /* Changes done on 25th April */
+.App{
+    background-image: url("../public/assets/Background-1.jpg");
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}

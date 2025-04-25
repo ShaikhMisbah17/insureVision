@@ -5,13 +5,30 @@
   justify-content: space-between;
   width: 25px;
   height: 18px;
-  cursor: pointer;
+  cursor: pointer;  
 }
 
 .menu-icon div {
   height: 3px;
-  background-color: #333;
+  background-color:aliceblue;
   border-radius: 2px;
 }
 
 
+.company-name{
+  color: aliceblue;
+}
+
+.btn-success{
+  background-color: #B94C99;
+  border-radius: 20px;
+}
+
+/* .label{
+  
+} */
+
+.header{
+  position: sticky;
+  top: 0;
+}
