@@ -3,7 +3,7 @@ import "./Section8.css"
 
 const index = () => {
   return (
-    <div className='mx-0 mt-5 mb-3'>
+    <div className='mx-0 mt-5 mb-3 last-section'>
         <div>
             <div className='row mx-3'>
                 <div className='col-2'><h4 className='section8-title'>INSUREVISION</h4></div>

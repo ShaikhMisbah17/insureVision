@@ -1,7 +1,21 @@
 /* Changes done on 25th April */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
 .App{
-    background-image: url("../public/assets/Background-1.jpg");
+    background-image: url("/assets/background.png");
     width: 100%;
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
+
+
+
+body{
+    font-family: "Figtree", sans-serif;
+}
+
+/* h1, h2, h3, h4, h5, h6, a, input, button, textarea, select{
+    font-family: "Figtree", sans-serif;
+} */

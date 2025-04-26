@@ -1,58 +1,39 @@
-/* .container {
-    width: 100%;
-    padding: 2rem;
-  }
-  
-  .section2 {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .text h1 {
-    font-size: 2rem;
-    line-height: 1.6;
-    color: #B94C99; 
-    font-weight: bold;
-  }
-  
-  
-  .text .line {
-    overflow: hidden;
-    display: block;
-    margin-bottom: 1rem;
-    
-  }
-   */
+.text-section {
+  flex-direction: column;
+  font-size: 2rem;
+  line-height: 1.6;
+  text-align: center;
+}
 
-   .section2 {
-    min-height: 100vh;
-    padding: 2rem;
-    background-color: #B94C99; /* Light background to contrast text */
-    color: #B94C99;
-  }
-  
-  .text {
-    max-width: 100px;
-    margin: 0 auto;
-  }
-  
-  .text h1 {
-    font-size: 2rem;
-    line-height: 1.6;
-    font-weight: 50;
-    color: #333;
-  }
-  
-  .line {
-    display: block; /* Ensures lines are treated as separate blocks for animation */
-    opacity: 0;      /* Initial state before GSAP animates */
-    transform: translateY(50px); /* Initial state before GSAP animates */
-  }
+.line-wrapper {
+  position: relative;
+  height: 2.5rem;
+  white-space: nowrap;
+  min-width: 100%;
+  margin-bottom: 15px;
+}
 
-  .line + .line {
-    margin-top: 1rem;
-  }
+.base-text,
+.purple-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  width: 100%;
+  text-align: center;
+   height: 274px;
+   font-size: 48px;
+   font-weight: light;
+}
+
+.base-text {
+  color: white;
+  z-index: 1;
   
-  
+}
+
+.purple-text {
+  color: #c267b5;
+  z-index: 2;
+  clip-path: inset(0 100% 0 0);
+}

@@ -14,21 +14,26 @@
   border-radius: 2px;
 }
 
-
-.company-name{
-  color: aliceblue;
-}
-
-.btn-success{
+ .btn-success{
   background-color: #B94C99;
-  border-radius: 20px;
+  border-radius: 20px;  
 }
 
-/* .label{
-  
-} */
+.btn-success:hover, .btn-success:active {
+  background-color: #B94C99;
+}
 
 .header{
-  position: sticky;
+  position: fixed;
   top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+.footer-sticky{
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+  width: 100%;
+  padding: 15px 0;
 }

@@ -3,18 +3,26 @@ import './Section1.css';
 
 const Section1 = () => {
   return (
-    <div className="section1">
-      <div className="row mx-0">
+    <div className="section1 min-vh-100 d-flex align-items-center justify-content-center">
+      <div className="row mx-0 justify-content-center w-100">
         {/* Image with Text Overlay */}
+        
+         <div className= "position-absolute px-0 w-100 start-0 top-0 image-top">
+          <img src="./assets/banner.png"
+          alt="lineVisuals"
+          className="w-100 opacity-0.5 first-image"
+        />
+         </div>
+
         <div className="col-md-6 position-relative image-container mx-auto">
           <img 
             src= "./assets/section1.png"           
             alt="Safety"
-            className="img-fluid w-100 opacity-100 mt-5"
+            className="img-fluid w-100 opacity-100 mt-5 safety"
           />
 
           {/* Top Center Text */}
-          <div className="overlay-text top-text text-center ">
+          <div className="overlay-text top-text text-center fw-bold">
             <h1>More Context</h1>
             <h1>Less Risk</h1>
           </div>
@@ -28,21 +36,6 @@ const Section1 = () => {
 
         <p className='text-msg text-center mb-3'>THE FUTURE OF ROAD SAFETY, NOW.</p>
 
-
-        <div className="col-12 mt-4">
-          <div className="row">
-            <div className="col-6 d-flex justify-content-start gap-2">
-              <button className="btn btn-outline-primary">Facebook</button>
-              <button className="btn btn-outline-primary">Instagram</button>
-              <button className="btn btn-outline-primary">Blogs</button>
-            </div>
-            <div className="col-6 d-flex justify-content-end gap-2">
-              <button className="btn btn-outline-secondary">Solutions</button>
-              <button className="btn btn-outline-secondary">Software</button>
-              <button className="btn btn-outline-secondary">Leadership</button>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );
